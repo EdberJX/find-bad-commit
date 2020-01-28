@@ -12,7 +12,7 @@ Shell bash
 
 #Parameters 🔧
 
-arg1: Good commit, hash of a good commit. (initial commit is always good)
+arg1: Good commit, hash of a good commit. (initial commit is always good).
 arg2: File path (yourProject/dir1/dir2/file.txt ) 
 arg3: Git branch (master, develop, other)  
 arg4: Project name (yourProject)

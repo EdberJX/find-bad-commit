@@ -43,11 +43,11 @@ while [ $FOUND -eq 2 ]; do
     # git bisect bad/good   Parameters, return a view  
     # wc                    Print newline, word, and byte counts for each FILE.              
     # awk                   $1 newlines number,$2 words number, $3 byte number.
-    # assign the number of lines of the output of git biset bad/good to the ENCONTRADO variable
-    ENCONTRADO=$(git bisect $BG | wc | awk '$1 {print $1}') 
+    # assign the number of lines of the output of git biset bad/good to the FOUND variable
+    FOUND=$(git bisect $BG | wc | awk '$1 {print $1}') 
     cd ..
 done    
-echo "[*] commit encontrado "
+echo "[*] commit found "
 cd $4
 git show
 
